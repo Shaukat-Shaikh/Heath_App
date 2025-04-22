@@ -8,9 +8,9 @@ import tempfile  # For creating temporary image file
 import re  # For cleaning up the output
 
 # Load environment variables
-# load_dotenv()
-# api_key = os.getenv("api_key")
-api_key  ="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"
+load_dotenv()
+api_key = os.getenv("api_key")
+
 
 
 
