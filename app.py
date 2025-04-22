@@ -10,7 +10,8 @@ import re  # For cleaning up the output
 # Load environment variables
 # load_dotenv()
 # api_key = os.getenv("api_key")
-api_key  ="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"
+api_key  ="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"
+
 
 
 # Function to encode image to base64
