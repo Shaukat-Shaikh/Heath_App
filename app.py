@@ -8,9 +8,9 @@ import tempfile  # For creating temporary image file
 import re  # For cleaning up the output
 
 # Load environment variables
-# load_dotenv()
-# api_key = os.getenv("api_key")
-api_key = "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"
+load_dotenv()
+api_key = os.getenv("api_key")
+
 
 # Function to encode image to base64
 def encode_image(image_path):
@@ -74,3 +74,5 @@ if uploaded_file is not None:
         response = analyze_image(image)
         st.subheader("Summary:")
         st.write(response)
+
+# Error: 401, {"error":{"message":"No auth credentials found","code":401}}
