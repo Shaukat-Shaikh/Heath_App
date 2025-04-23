@@ -9,6 +9,7 @@ A simple and powerful healthcare tool that allows users to upload a **medical re
 ---
 
 ## 🧠 What It Does
+![example](screenshots/img2.png)
 
 This app uses the **Moonshot AI multimodal model** via [OpenRouter](https://openrouter.ai) to:
 - 🔍 Analyze medical report images (JPG/PNG)
@@ -40,7 +41,7 @@ This app uses the **Moonshot AI multimodal model** via [OpenRouter](https://open
 
 > Upload a medical report and receive a concise health summary.
 
-![example](screenshots/img2.png)
+
 
 ---
 
