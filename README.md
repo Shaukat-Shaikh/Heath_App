@@ -40,7 +40,7 @@ This app uses the **Moonshot AI multimodal model** via [OpenRouter](https://open
 
 > Upload a medical report and receive a concise health summary.
 
-![example](screenshots/back1.PNG)
+![example](screenshots/img2.png)
 
 ---
 
