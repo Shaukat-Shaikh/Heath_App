@@ -10,7 +10,7 @@ import re  # For cleaning up the output
 # Load environment variables
 # load_dotenv()
 # api_key = os.getenv("api_key")
-api_key  ="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"
+api_key  ="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"
 
 
 # Function to encode image to base64
@@ -76,4 +76,5 @@ if uploaded_file is not None:
         st.subheader("Summary:")
         st.write(response)
 
-# Error: 401, {"error":{"message":"No auth credentials found","code":401}}
+# # # Error: 401, {"error":{"message":"No auth credentials found","code":401}}
+# print(api_key)
