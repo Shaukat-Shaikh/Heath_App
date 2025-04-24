@@ -11,11 +11,11 @@ import os
 # Load environment variables
 
 # api_key = os.getenv("api_key")
-load_dotenv()
-os.environ["api_key"]=os.getenv("api_key")
-api_key = os.environ["api_key"]
+# load_dotenv()
+# os.environ["api_key"]=os.getenv("api_key")
+# api_key = os.environ["api_key"]
 
-# api_key  ="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"
+api_key  ="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"
 
 
 # Function to encode image to base64
